@@ -1,0 +1,226 @@
+ 
+    h1{
+        text-align: center;
+    }
+    * {
+        box-sizing: border-box;
+      }
+    
+    *{
+        
+        color: rgb(67, 69, 69);
+        font-family:Arial, Helvetica, sans-serif ;
+        margin-left:1%;
+        margin-right:1%;
+        margin-bottom:1%;
+        margin-top:1%;
+    }
+    body {
+       text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    
+    nav {
+       
+        background-image: url("practical images/maldives_islands_vacation-t2.jpg");
+        background-size: cover;
+        background-position: center;
+        padding: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;}
+
+        h1{
+            
+            font-size: x-large;
+            background-color: rgba(200, 248, 248, 0.978);
+        }
+        p{
+            p {
+                text-align: justify; /* Justify text for a clean look */
+                margin-bottom: 20px; /* Space between paragraphs */
+                font-size: 16px; /* Font size for readability */
+                color: #333; /* Text color */
+                line-height: 1.8; /* Line height for readability */
+            }
+        }
+        
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h2,h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="date"] {
+    padding: 8px;
+}
+
+button {
+    
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+.activity-title {
+    font-weight: bold;
+    font-size: 22px;
+}
+.activity-description {
+    color: #555;
+}
+.activity-image img {
+    width: 100px;
+    height: auto;
+}
+
+
+.gallery-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.gallery-container h2 {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery-item {
+    flex: 1 1 calc(33.333% - 10px); /* Adjusts to a third of the container width minus the gap */
+    box-sizing: border-box;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .gallery-item {
+        flex: 1 1 calc(50% - 10px); /* Adjusts to half the container width minus the gap */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        flex: 1 1 100%; /* Full width for smaller screens */
+    }
+}
+          
+
+        footer { 
+            background-color: #dcedf6;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            padding-top: 20px;
+            padding-bottom: 30px;
+          }
+          
+          #container {
+            display: flex;
+            flex-direction: column;
+            min-height: 40px;
+        }
+        
+        #header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        #main {
+            flex: 1;
+            padding:40px;
+        }
+        
+        #gallery {
+            display: grid;
+            gap: 16px;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        }
+        
+        #grid-item {
+            overflow: hidden;
+            border-radius: 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        #grid-item img {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }    

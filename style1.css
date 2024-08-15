@@ -1,0 +1,37 @@
+#flex_container{
+    display:flex;
+    background-color: rgb(197, 242, 242);
+    /*flex-direction: row-reverse;
+    flex-wrap: wrap;*/
+    
+    
+
+
+}
+#flex_container > div{ 
+    background-color: bisque;
+    width: 350px;
+    height:250px;
+    margin:20px;
+}
+/* an every tag inide the flex container */
+#d1{
+    background-color: rgb(197, 242, 242);
+}
+#flex1{
+   height:100%;
+   width:100%;
+}
+#flex2{
+    height:100%;
+    width:100%;
+ }
+ #flex3{
+    height:100%;
+    width:100%;
+    
+ }
+ #flex4{
+    height: 100%;
+    width:100%;
+ }
